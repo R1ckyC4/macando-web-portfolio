@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Page</title>
+    <title>Ricky's Homepage
+    </title>
       <script src="https://cdn.tailwindcss.com"></script>
   </head>
-    <body>
-      
-      <h1 class="text-blue-500 text-center font-bold">Ricky Chen</h1>
-      <p class="text-blue-500"> Hello world!</p>
-        <p>I am a student researcher at Columbia University</p>
-      <img class="w-64" alt ="a cute cat picture" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC1oZvXpwu1xf1wBmXWT8BdK012fvFc576UqfKH5PYQ&s=10"/>
-      
-      </body>
+    <body class="p-3">
+      <nav class="bg-white border-b border-gray-200 px-8 py-4 flex items-center gap-6">
+  <a href="index.html" class="font-bold text-gray-800 hover:text-blue-500">About</a>
+  <a href="projects.html" class="text-gray-600 hover:text-blue-500">Projects</a>
+  
+</nav>
+<!-- About-->
+      <h1 class="text-blue-500 text-center font-bold text-5xl mb-6 max-w-3xl mx-auto"> Ricky Chen</h1>
+      <div class ="border border-gray-300 rounded-lg p-7 shadow-md my-3">
+        <h2 class="font-bold text-xl mb-2"> About Me</h2>
+        <p class="text-center"> Hi, I'm Ricky. I like to solve, build, and tinker, all in one package </p>
+        <p class="indent-6">I'm a research intern at <a href="https://wimnet.ee.columbia.edu"
+                target="_blank" class="text-blue-500 underline hover:text-blue-700" >Columbia WiMNeT.</a> 
+                being mentored by John L. Drogo. My focus is on 6G ISAC and applications of EHF Radio Waves 
+                on sensing. Outside the lab, I am learning to build hardware such as robots, my own RF systems, 
+              and embedded sensing projects. I am interested in the intersection of wireless systems, robotics, 
+            and inteligent hardware. </p>
+         <p class="indent-6"> I am building this space out to showcase my engineering research, projects,
+          and technical work. Pleased to meet you. 
+        </p>
 
+      </div>
+    <!-- Research Exp-->
+<div class="border border-gray-300 rounded-lg p-6 shadow-md my-6 max-w-3xl mx-auto">
+  <h2 class="font-bold text-xl mb-4">Research Experience</h2>
+  
+  <div class="mb-4">
+    <div class="flex justify-between items-start">
+      <div>
+        <h3 class="font-semibold text-lg">Columbia WiMNeT Lab</h3>
+        <p class="text-gray-500 text-sm">2025 — Present · Mentor: John L. Drogo · PI: Gil Zussman</p>
+      </div>
+      <span class="text-gray-400 text-sm whitespace-nowrap">New York, NY</span>
+    </div>
+
+    <p class="mt-3 text-gray-700">Research internship with two dedicated summer cohorts (2025, 2026) 
+      with ongoing engagement throughout the school year.</p>
+
+    <ul class="mt-3 space-y-1 text-gray-700 list-disc list-inside">
+      <li>Conducted channel sounding measurements in FCC innovation zone around 
+        Columbia University in collaboration with Nokia Bell Labs.</li>
+      <li>Developed data analysis scripts in Python (pandas, numpy, matplotlib) and MATLAB to 
+        analyze over 100 GB of raw 140 GHz angular backscatter data.</li>
+      <li>Contributed to equipment calibration and maintenance.</li>
+    </ul>
+
+    <!-- Independent Project -->
+    <div class="mt-4 pl-4 border-l-2 border-blue-200 max-w-3xl mx-auto">
+      <p class="font-medium text-gray-800">Independent Project · Summer 2025</p>
+      <p class="text-gray-600 italic text-sm mb-2">"Low Complexity Environmental Characterization 
+        using mmWave Backscatter for Future 6G Networks"</p>
+      <p class=" indent-6 mt-3 text-gray-700"> This project attempted to classify and then characterize environments based on the statistical analysis
+        of the angular backscatter data from that environment. Outdoor environments included rooftops, streets, and plazas.
+        While Indoor environments included hallways, hallway intersections, and rooms. 
+      </p>
+      
+      <ul class="space-y-1 text-gray-700 list-disc list-inside">
+        <li>Poster Presentation at Second Annual High School Science Research Symposium</li>
+        <li>Paper Submission and Poster Presentation at Terra STEM Fair Competition 
+          | Category: Engineering</li>
+        <li>Oral Presentation at Luminousus Research Symposium </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+     
+      <!--Projects-->
+      <div class="border border-gray-300 rounded-lg p-6 shadow-md my-6">
+        <h2 class="font-bold text-xl mb-4">Selected Projects</h2>
+        <div class="mb-4">
+          <h3 class="font-semibold text-lg">Fluid Simulation</h3>
+          <p class="text-gray-500 text-sm">Computational Physics · Java · Processing · Group Project</p>
+          <p class="mt-1 text-gray-700">Built a real-time Eulerian grid-based fluid simulator in Processing (Java), 
+            implementing Jos Stam's Stable Fluids pipeline. Responsible for the core physics engine — 
+            velocity advection, pressure projection, and diffusion. Partner handled UI and user interactivity.</p>
+          <a href="https://github.com/R1ckyC4/2d-Fluid-Simulation" target="_blank" 
+            class="text-blue-500 underline hover:text-blue-700 text-sm">GitHub Repo Link</a>
+      </div>
+      </div>
+ </body>
 </html>
