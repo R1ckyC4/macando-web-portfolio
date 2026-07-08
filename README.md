@@ -1,8 +1,7 @@
 # Portfolio 
 This is a website showcasing my engineering portfolio
 THank you for looking
-Selected projects
-- Project Sentinel 
+
 
 ## Preview
 
