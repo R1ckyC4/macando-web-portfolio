@@ -1,8 +1,15 @@
 # Portfolio 
 This is a website showcasing my engineering portfolio
-THank you for looking
+Built with HTML and tailwind CSS. and hosted on github pages.
 
+
+THank you for looking
+## Pages
+- **About** — research background and bio
+- **Research** — Columbia WiMNeT Lab internship and independent projects
+- **Projects** — selected engineering projects
+- **Project Sentinel** — personal hardware initiative
 
 ## Preview
 
-![Website Preview](https://cdn.hackclub.com/019f38db-9ccf-7530-995a-a1c7a32b05a2/screenshot.png)
+![Website Preview](images\Screenshot 2026-07-08 003144.png)
