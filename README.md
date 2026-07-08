@@ -11,4 +11,4 @@ THank you for looking
 
 ## Preview
 
-![Website Preview](images\Screenshot 2026-07-08 003144.png)
+![Website Preview](images/Screenshot 2026-07-08 003144.png)
